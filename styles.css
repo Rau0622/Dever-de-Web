@@ -1,0 +1,63 @@
+body
+{
+    margin: 0;
+    letter-spacing: 1px;
+    background: linear-gradient(#1c095f, #2b50f1, #2b50f1, #1c095f);
+}
+
+h1
+{
+    margin-top: 175px;
+    margin-left: 20%;
+    color: blueviolet;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10;
+}
+
+.texto
+{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 10%;
+    color: rgb(191, 178, 210);
+}
+
+div p
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+    color: blueviolet;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 100px; 
+    background-color: #1c095f;
+}
+
+.background
+{
+    width: auto;
+    height: 675px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 200px;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('Imagem/Yuumi_49.webp');
+}
+
+.img-lateral {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: auto;
+    margin: 40px; 
+}
